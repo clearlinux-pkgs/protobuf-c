@@ -1,0 +1,2 @@
+Configure miss: whether self tests are run under valgrind
+Configure miss: whether to build with code coverage support
