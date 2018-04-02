@@ -4,7 +4,7 @@
 #
 Name     : protobuf-c
 Version  : 1.3.0
-Release  : 12
+Release  : 13
 URL      : https://github.com/protobuf-c/protobuf-c/archive/v1.3.0.tar.gz
 Source0  : https://github.com/protobuf-c/protobuf-c/archive/v1.3.0.tar.gz
 Summary  : Protocol Buffers C library
