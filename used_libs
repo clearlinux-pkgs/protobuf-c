@@ -1,1 +1,5 @@
 libc.so.6
+libgcc_s.so.1
+libprotobuf.so.22
+libprotoc.so.22
+libstdc++.so.6
