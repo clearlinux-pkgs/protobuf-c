@@ -4,10 +4,10 @@
 #
 Name     : protobuf-c
 Version  : 1.3.2
-Release  : 21
+Release  : 22
 URL      : https://github.com/protobuf-c/protobuf-c/releases/download/v1.3.2/protobuf-c-1.3.2.tar.gz
 Source0  : https://github.com/protobuf-c/protobuf-c/releases/download/v1.3.2/protobuf-c-1.3.2.tar.gz
-Summary  : Protocol Buffers implementation in C
+Summary  : Protocol Buffers C library
 Group    : Development/Tools
 License  : BSD-2-Clause
 Requires: protobuf-c-bin = %{version}-%{release}
@@ -45,7 +45,6 @@ Requires: protobuf-c-lib = %{version}-%{release}
 Requires: protobuf-c-bin = %{version}-%{release}
 Provides: protobuf-c-devel = %{version}-%{release}
 Requires: protobuf-c = %{version}-%{release}
-Requires: protobuf-c = %{version}-%{release}
 
 %description dev
 dev components for the protobuf-c package.
@@ -78,8 +77,8 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1575555851
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1575563123
+unset LD_AS_NEEDED
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -99,7 +98,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1575555851
+export SOURCE_DATE_EPOCH=1575563123
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/protobuf-c
 cp %{_builddir}/protobuf-c-1.3.2/LICENSE %{buildroot}/usr/share/package-licenses/protobuf-c/7497f724cc1f1ee84e4ced1f6a59e2d39793a231
