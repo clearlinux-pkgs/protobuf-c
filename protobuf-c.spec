@@ -4,7 +4,7 @@
 #
 Name     : protobuf-c
 Version  : 1.4.1
-Release  : 26
+Release  : 27
 URL      : https://github.com/protobuf-c/protobuf-c/releases/download/v1.4.1/protobuf-c-1.4.1.tar.gz
 Source0  : https://github.com/protobuf-c/protobuf-c/releases/download/v1.4.1/protobuf-c-1.4.1.tar.gz
 Summary  : @PACKAGE_DESCRIPTION@
