@@ -67,6 +67,6 @@ libabsl_vlog_config_internal.so.2401.0.0
 libc.so.6
 libgcc_s.so.1
 libm.so.6
-libprotobuf.so.26.1.0
-libprotoc.so.26.1.0
+libprotobuf.so.25.3.0
+libprotoc.so.25.3.0
 libstdc++.so.6
