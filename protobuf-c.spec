@@ -7,7 +7,7 @@
 #
 Name     : protobuf-c
 Version  : 1.5.0
-Release  : 30
+Release  : 31
 URL      : https://github.com/protobuf-c/protobuf-c/releases/download/v1.5.0/protobuf-c-1.5.0.tar.gz
 Source0  : https://github.com/protobuf-c/protobuf-c/releases/download/v1.5.0/protobuf-c-1.5.0.tar.gz
 Summary  : @PACKAGE_DESCRIPTION@
